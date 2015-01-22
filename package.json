@@ -1,0 +1,43 @@
+{
+  "name": "grunt-jshint-only",
+  "version": "0.1.0",
+  "description": "A plugin to run only code against only some jshint options.",
+  "repository": "https://github.com/emilycoco/grunt-jshint-only",
+  "author": {
+    "name": "Emily Coco",
+    "email": "emilymcoco@gmail.com",
+    "url": ""
+  },
+  "keywords": [
+    "gruntplugin",
+    "jshint",
+    "only",
+    "jslint"
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "license": "MIT",
+   "dependencies": {
+     "grunt": "~0.4.2",
+     "grunt-contrib-clean": "~0.5.0",
+     "grunt-contrib-jshint": "^0.10.0",
+     "grunt-contrib-nodeunit": "~0.3.0",
+     "jshint": "^2.6.0",
+     "jshint-stylish": "~0.1.5",
+     "load-grunt-tasks": "~0.3.0"
+   },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "~0.3.0",
+    "jshint": "^2.6.0",
+    "jshint-stylish": "~0.1.5",
+    "load-grunt-tasks": "~0.3.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  }
+}
